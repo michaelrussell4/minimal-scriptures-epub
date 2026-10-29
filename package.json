@@ -1,21 +1,26 @@
 {
-	"name": "@bencrowder/scriptures-json",
-	"version": "1.0.1",
-	"description": "LDS scriptures in JSON format",
-	"author": "Ben Crowder <ben.crowder@gmail.com> (https://bencrowder.net/)",
-	"keywords": [
-		"lds",
-		"mormon",
-		"scriptures"
-	],
-	"license": "CC0-1.0",
-	"bugs": {
-		"url": "https://github.com/bcbooks/scriptures-json/issues",
-		"email": "ben.crowder@gmail.com"
-	},
-	"homepage": "https://bencrowder.net/religious/scriptures-in-json/",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/bcbooks/scriptures-json"
-	}
+  "name": "minimal-scriptures-epub",
+  "version": "1.0.0",
+  "description": "Minimalist, high-contrast EPUB edition of the LDS canon of scriptures for Kindle Paperwhite",
+  "main": "build.js",
+  "scripts": {
+    "build": "node build.js"
+  },
+  "keywords": [
+    "lds",
+    "scriptures",
+    "epub",
+    "kindle",
+    "paperwhite",
+    "book-of-mormon",
+    "doctrine-and-covenants",
+    "pearl-of-great-price",
+    "bible"
+  ],
+  "author": "Michael Russell",
+  "license": "CC0-1.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/michaelrussell4/minimal-scriptures-epub"
+  }
 }
